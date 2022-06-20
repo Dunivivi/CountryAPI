@@ -85,5 +85,10 @@ const getCountryAndNeighbor = function (country) {
   });
 };
 
-getCountryAndNeighbor('portugal');
-getCountryAndNeighbor('moldova');
+btn.addEventListener('click', function() {
+    const inputCountry = prompt('Input the full name of the country');
+    getCountryAndNeighbor(inputCountry);
+})
+
+
+// getCountryAndNeighbor('moldova');
